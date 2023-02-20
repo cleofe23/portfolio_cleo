@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+     font-family: 'Poppins', sans-serif;;
+}
+
+.heaedr{
+    height: 100vh;
+    background-image: linear-gradient(rgba(3,4,7,0,48), rgba(5,10,30,0,48)), url(https://github.com/KodeGo-Bootcamp/HTML-Activity-Images/commit/a61d5a5e1b1724c7f5cfaf6d448f89f7a9979ad3);
+    background-size: cover;
+    background-position: center;
+}
+.header-brand{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.header-brand__span{
+    color: green;
+   
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 7%;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
