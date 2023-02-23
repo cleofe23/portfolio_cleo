@@ -13,6 +13,7 @@ body{
 
 }
 
+/********************************hero SECTION ********************************/
 .header{
     height: 100vh;
     background-image:linear-gradient(rgba(3,4,7,0.48), rgba(5,10,30,0.48)),url('https://github.com/KodeGo-Bootcamp/HTML-Activity-Images/blob/main/pexels-royal-anwar-450214.jpg?raw=true');
@@ -273,3 +274,53 @@ footer{
 
 }
 /*******************************FOOTER SECTION *******************************/
+/*******************************media queries SECTION *******************************/
+
+/*******************************hero SECTION *******************************/
+@media only screen and (max-width:600px){
+    .header{
+     
+    }
+    /*
+    .header-brand{
+     
+    }
+    
+    
+    
+    }
+    
+    nav{
+        
+    }
+    
+    nav ul li{
+       
+    }
+    
+    nav ul li a{
+      
+    }
+    
+    .header-text{
+        
+    }
+    
+    .header-text h1{
+        
+    }
+   */ 
+}
+/*******************************about SECTION *******************************/
+
+/*@media only screen and (max-width:600px){
+    
+}
+/*******************************portfolio SECTION *******************************/
+/*@media only screen and (max-width:600px){
+    
+}
+/*******************************contact SECTION *******************************/
+/*@media only screen and (max-width:600px){
+    
+}
