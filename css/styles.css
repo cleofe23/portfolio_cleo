@@ -87,7 +87,9 @@ nav ul li a {
     background-color: #242323;
     height: 80vh;
 }
-
+.about-image{
+    display: none;
+}
 .about-text {
     /* background-color: orangered; */
     color: white;
@@ -353,11 +355,27 @@ footer {
         height: 150vh;
 
     }
-    .about-img{
+    .about-img {
         display: block;
         text-align: center;
-        padding: 0 3% 5%;
+        padding: 0 3% 5% 0;
     }
+
+    .about-img img {
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+        transition-delay: 0.01s;
+    }
+
+    .about-img img:hover {
+        transform: translate(-5px, -10px);
+        cursor: pointer;
+        box-shadow: 13px 10px 5px 0px rgba(133,121, 121, 0.75);
+        -webkit-box-shadow: 13px 10px 5px 0px rgba(133,121, 121, 0.75);;
+        -moz-box-shadow: 13px 10px 5px 0px rgba(133,121, 121, 0.75);
+    }
+
     /*.about {
         background-color: #242323;
         height: 80vh;
